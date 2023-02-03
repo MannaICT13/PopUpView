@@ -56,15 +56,39 @@
 		2A91C907298D6F5A004FAB67 /* PopUpView */ = {
 			isa = PBXGroup;
 			children = (
-				2A91C908298D6F5A004FAB67 /* AppDelegate.swift */,
-				2A91C90A298D6F5A004FAB67 /* SceneDelegate.swift */,
-				2A91C90C298D6F5A004FAB67 /* ViewController.swift */,
-				2A91C90E298D6F5A004FAB67 /* Main.storyboard */,
+				2A91C91C298D7017004FAB67 /* Support Files */,
+				2A91C91E298D7057004FAB67 /* ViewControllers */,
+				2A91C91D298D703C004FAB67 /* Storyboards */,
 				2A91C911298D6F5D004FAB67 /* Assets.xcassets */,
-				2A91C913298D6F5D004FAB67 /* LaunchScreen.storyboard */,
 				2A91C916298D6F5D004FAB67 /* Info.plist */,
 			);
 			path = PopUpView;
+			sourceTree = "<group>";
+		};
+		2A91C91C298D7017004FAB67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A91C908298D6F5A004FAB67 /* AppDelegate.swift */,
+				2A91C90A298D6F5A004FAB67 /* SceneDelegate.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		2A91C91D298D703C004FAB67 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2A91C90E298D6F5A004FAB67 /* Main.storyboard */,
+				2A91C913298D6F5D004FAB67 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2A91C91E298D7057004FAB67 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A91C90C298D6F5A004FAB67 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
