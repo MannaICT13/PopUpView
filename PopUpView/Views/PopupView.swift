@@ -19,7 +19,7 @@ class PopupView: UIView, NibBased {
     @IBOutlet weak var contentView: UIView! {
         didSet {
             contentView.backgroundColor = UIColor.black
-            contentView.alpha = 0.3
+            contentView.alpha = 1
         }
     }
     let callback = Callback()

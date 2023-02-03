@@ -13,6 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    @IBAction func showPopup(_ sender: UIButton) {
+        showAlertPopupView()
+    }
+    
     private weak var alerView: UIView?
     
     private func showAlertPopupView() {
@@ -22,7 +26,6 @@ class ViewController: UIViewController {
         popupView.callback.didConfirm = {[weak self] in
             self?.alerView?.removeFromSuperview()
             self?.navigationItem.setHidesBackButton(false, animated: false)
-  
         }
         
         popupView.callback.didClose = {[weak self] in
