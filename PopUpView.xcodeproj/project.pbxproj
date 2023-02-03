@@ -15,6 +15,7 @@
 		2A91C915298D6F5D004FAB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A91C913298D6F5D004FAB67 /* LaunchScreen.storyboard */; };
 		2A91C921298D70F7004FAB67 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91C920298D70F7004FAB67 /* PopupView.swift */; };
 		2A91C923298D7113004FAB67 /* PopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A91C922298D7113004FAB67 /* PopupView.xib */; };
+		2A91C926298D7935004FAB67 /* SharedProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91C925298D7935004FAB67 /* SharedProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2A91C916298D6F5D004FAB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A91C920298D70F7004FAB67 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		2A91C922298D7113004FAB67 /* PopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupView.xib; sourceTree = "<group>"; };
+		2A91C925298D7935004FAB67 /* SharedProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		2A91C907298D6F5A004FAB67 /* PopUpView */ = {
 			isa = PBXGroup;
 			children = (
+				2A91C924298D78DD004FAB67 /* Shared Protocols */,
 				2A91C91F298D7095004FAB67 /* Views */,
 				2A91C91C298D7017004FAB67 /* Support Files */,
 				2A91C91E298D7057004FAB67 /* ViewControllers */,
@@ -103,6 +106,14 @@
 				2A91C922298D7113004FAB67 /* PopupView.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2A91C924298D78DD004FAB67 /* Shared Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2A91C925298D7935004FAB67 /* SharedProtocols.swift */,
+			);
+			path = "Shared Protocols";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 				2A91C921298D70F7004FAB67 /* PopupView.swift in Sources */,
 				2A91C909298D6F5A004FAB67 /* AppDelegate.swift in Sources */,
 				2A91C90B298D6F5A004FAB67 /* SceneDelegate.swift in Sources */,
+				2A91C926298D7935004FAB67 /* SharedProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
